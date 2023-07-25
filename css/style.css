@@ -1,0 +1,56 @@
+@import url(https://fonts.google.com/specimen/Outfit);
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family:'Poppins', sans-serif;
+    font-weight: 400;
+    max-width: 1440px;
+    height: 100vh;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    background-color: hsl(212, 45%, 89%);
+}
+
+.box {
+    width: 240px;
+    background-color: hsl(0, 0%, 100%);
+    border-radius: 15px;
+}
+
+img {
+    margin: 10px;
+    width: 220px;
+    height: 220px;
+    border-radius: 10px;
+}
+
+h1 {
+    color: hsl(218, 44%, 22%);
+    font-size: 15px;
+    font-weight: 700;
+    padding: 5px 24px;
+    width: 80%;
+    display: flex;
+    text-align: center;
+}
+
+span {
+    color: hsl(220, 15%, 55%);
+    line-height: 13px;
+    display: block;
+    padding: 10px 24px 30px;
+    width: 80%;
+    font-size: 11px;
+    font-weight: 100;
+    text-align: center;
+}
